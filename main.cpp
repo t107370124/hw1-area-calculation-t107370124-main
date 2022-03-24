@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 
 	Shape *shape;
 	Rectangle rect;
-	/**** Uncomment the code after you create class Circle and Triangle in shapes.h
+	/**** Uncomment  code after you create class Circle and Triangle in shapes.h
 	Circle circle;
 	Triangle triangle;
 	****/
