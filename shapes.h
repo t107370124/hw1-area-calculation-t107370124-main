@@ -47,7 +47,7 @@ public:
 	Circle(double a = 0) :Shape(a) { }
 
 	double area() {
-		return (width * width * 3.1415926);
+		return (width * width * PI);
 	}
 };
 #endif

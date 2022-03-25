@@ -29,18 +29,29 @@ int main(int argc, char *argv[])
 
 
     if (strcmp(argv[1], "rectangle") == 0)
+	{
 		shape = &rect;
+		shape->setWidth(num1);
+		shape->setHeight(num2);
+	}
 	else if (strcmp(argv[1], "triangle") == 0)
+	{
 		shape = &triangle;
+		shape->setWidth(num1);
+		shape->setHeight(num2);
+	}
 	else if (strcmp(argv[1], "circle") == 0)
+	{	
 		shape = &circle;
-	else {
+		shape->setWidth(num1);
+	}
+	else 
+	{
 		cout << "Error! Unknown shape type" << endl;
 		return -2;
 	}
 
-	shape->setWidth(num1);
-	shape->setHeight(num2);
+	
 	
 	// Print the area of the object.
 	cout << shape->area() << endl;
